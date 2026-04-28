@@ -1,10 +1,7 @@
 fastapi
 uvicorn
 pydantic
-celery
-redis
 xgboost
-torch
 yfinance
 pandas
 numpy
