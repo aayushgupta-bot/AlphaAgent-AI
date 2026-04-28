@@ -1,5 +1,9 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL 
-  || "http://localhost:8000/api";
+let rawApiBase = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+rawApiBase = rawApiBase.replace(/\/+$/, "");
+if (!rawApiBase.endsWith("/api")) {
+  rawApiBase += "/api";
+}
+const API_BASE = rawApiBase;
 
 /**
  * Fetches prediction, signal, and explanation for a given ticker.
