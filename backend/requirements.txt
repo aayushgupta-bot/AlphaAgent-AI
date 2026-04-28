@@ -5,7 +5,6 @@ xgboost
 yfinance
 pandas
 numpy
-scikit-learn
 joblib
 httpx
 python-dotenv
