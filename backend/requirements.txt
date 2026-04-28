@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+celery
+redis
+xgboost
+torch
+yfinance
+pandas
+numpy
+scikit-learn
+joblib
+httpx
+python-dotenv
