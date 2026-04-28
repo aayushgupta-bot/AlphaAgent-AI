@@ -16,6 +16,10 @@ app.include_router(stock.router, prefix="/api/stock", tags=["Stock"])
 app.include_router(predict.router, prefix="/api/predict", tags=["Predict"])
 app.include_router(chat.router, prefix="/api/chat", tags=["Chat"])
 
+@app.get("/")
+def read_root():
+    return {"message": "AlphaAgent AI Backend is running. Access /docs for the API."}
+
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}

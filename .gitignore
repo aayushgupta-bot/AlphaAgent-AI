@@ -10,7 +10,7 @@ build/
 .eggs/
 *.pkl
 *.pt
-!backend/app/models/train_model.py
+!backend/app/models/*.pkl
 
 # ── Virtual environments ──────────────────────
 venv/
