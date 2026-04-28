@@ -1,4 +1,6 @@
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = process.env.NODE_ENV === "production" 
+  ? "/_/backend/api" 
+  : "http://localhost:8000/api";
 
 /**
  * Fetches prediction, signal, and explanation for a given ticker.
