@@ -14,6 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Include API routers for modular endpoints: stock data, predictions, and chat functionality
 app.include_router(stock.router, prefix="/api/stock", tags=["Stock"])
 app.include_router(predict.router, prefix="/api/predict", tags=["Predict"])
 app.include_router(chat.router, prefix="/api/chat", tags=["Chat"])
