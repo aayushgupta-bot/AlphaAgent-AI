@@ -51,6 +51,7 @@ export default function Dashboard() {
         getFeatures(ticker).catch(() => null),
       ]);
 
+      // Store prediction response
       setData(predictionRes);
 
       if (featuresRes?.sample_rows) {
