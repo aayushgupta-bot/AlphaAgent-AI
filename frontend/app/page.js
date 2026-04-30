@@ -39,7 +39,7 @@ export default function Dashboard() {
     setChartData([]);
     setActiveTicker(ticker);
 
-    // Smooth scroll to results area
+   // Smooth scroll to results area after user submits ticker
     setTimeout(() => {
       resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
