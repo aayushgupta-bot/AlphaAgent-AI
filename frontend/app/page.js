@@ -27,6 +27,8 @@ export default function Dashboard() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [activeTicker, setActiveTicker] = useState("");
+
+  // Ref used for scrolling to results section after analysis
   const resultsRef = useRef(null);
 
   const handleAnalyze = useCallback(async (ticker) => {
