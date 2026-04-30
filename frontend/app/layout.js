@@ -8,6 +8,7 @@ export const metadata = {
     "Agent-driven stock analysis, prediction, and explanation powered by ML and LLM.",
 };
 
+// Root layout component that wraps all pages in the app
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
