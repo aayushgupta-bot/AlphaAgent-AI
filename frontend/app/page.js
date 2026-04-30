@@ -54,6 +54,7 @@ export default function Dashboard() {
       // Store prediction response
       setData(predictionRes);
 
+      // Transform feature data into chart-friendly format
       if (featuresRes?.sample_rows) {
         const rows = featuresRes.sample_rows.map((row) => ({
           date: row.Date?.split(" ")[0] || "",
