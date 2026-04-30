@@ -5,6 +5,7 @@ from app.api import stock, predict, chat
 # Initialize FastAPI application with basic metadata (title & version)
 app = FastAPI(title="AlphaAgent AI", version="1.0.0")
 
+# Enable CORS middleware to allow frontend (e.g., Next.js) to communicate with backend APIs
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
