@@ -20,6 +20,8 @@ import { getPrediction, getFeatures } from "@/services/api";
 
 // Main dashboard component handling UI and business logic
 export default function Dashboard() {
+
+  // State variables to manage API data, loading state, errors, and selected ticker
   const [data, setData] = useState(null);
   const [chartData, setChartData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
