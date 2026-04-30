@@ -1,5 +1,6 @@
 "use client";
 
+// Import React hooks for state management and performance optimization
 import { useState, useCallback, useRef } from "react";
 import Hero from "@/components/Hero";
 import TickerInput from "@/components/TickerInput";
