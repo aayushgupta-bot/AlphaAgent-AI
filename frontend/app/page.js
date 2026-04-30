@@ -45,6 +45,7 @@ export default function Dashboard() {
     }, 100);
 
     try {
+      // Fetch prediction and feature data in parallel for better performance
       const [predictionRes, featuresRes] = await Promise.all([
         getPrediction(ticker),
         getFeatures(ticker).catch(() => null),
