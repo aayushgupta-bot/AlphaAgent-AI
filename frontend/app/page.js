@@ -2,6 +2,8 @@
 
 // Import React hooks for state management and performance optimization
 import { useState, useCallback, useRef } from "react";
+
+// Import UI components used in dashboard
 import Hero from "@/components/Hero";
 import TickerInput from "@/components/TickerInput";
 import SuggestedStocks from "@/components/SuggestedStocks";
