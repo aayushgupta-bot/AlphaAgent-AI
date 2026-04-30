@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
+             {/* Apply minimum height to ensure full-screen layout */}
       <body className="min-h-screen">{children}</body>
     </html>
   );
