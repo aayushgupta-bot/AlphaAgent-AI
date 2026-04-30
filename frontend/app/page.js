@@ -31,6 +31,7 @@ export default function Dashboard() {
   // Ref used for scrolling to results section after analysis
   const resultsRef = useRef(null);
 
+  // Function to handle stock analysis (API calls + UI updates)
   const handleAnalyze = useCallback(async (ticker) => {
     setIsLoading(true);
     setError(null);
