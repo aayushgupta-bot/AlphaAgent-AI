@@ -1,3 +1,4 @@
+// Import global styles for the entire application
 import "./globals.css";
 
 export const metadata = {
