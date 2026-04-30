@@ -67,6 +67,7 @@ export default function Dashboard() {
       
       setError(err.message || "Something went wrong. Please try again.");
     } finally {
+      // Stop loading state after API call completes
       setIsLoading(false);
     }
   }, []);
