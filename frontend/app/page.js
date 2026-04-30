@@ -74,7 +74,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen">
-      {/* ── Hero ──────────────────────────────────────────────────────── */}
+       {/* Hero section displaying app introduction */}
       <Hero />
 
       {/* ── Main content ──────────────────────────────────────────────── */}
