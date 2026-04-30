@@ -11,6 +11,7 @@ export const metadata = {
 // Root layout component that wraps all pages in the app
 export default function RootLayout({ children }) {
   return (
+    // Set language and enable dark mode globally
     <html lang="en" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
