@@ -1,6 +1,7 @@
 // Import global styles for the entire application
 import "./globals.css";
 
+// Metadata configuration for SEO and browser tab information
 export const metadata = {
   title: "AlphaAgent AI — Intelligent Stock Analysis",
   description:
