@@ -63,6 +63,8 @@ export default function Dashboard() {
         setChartData(rows);
       }
     } catch (err) {
+      // Handle API errors gracefully
+      
       setError(err.message || "Something went wrong. Please try again.");
     } finally {
       setIsLoading(false);
