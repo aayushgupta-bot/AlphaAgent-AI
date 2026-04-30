@@ -226,7 +226,3 @@ docker-compose up --build -d
 | **ExplanationAgent** | Constructs grounded prompt, calls LLM, returns analysis |
 
 ---
-
-## License
-
-MIT
