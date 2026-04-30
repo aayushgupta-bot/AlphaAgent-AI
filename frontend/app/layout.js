@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <head>
      {/* Preconnect to Google Fonts for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     {/* Preconnect to font assets with CORS support */}
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
