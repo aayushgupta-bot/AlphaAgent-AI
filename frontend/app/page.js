@@ -18,6 +18,7 @@ import LoadingSkeleton from "@/components/LoadingSkeleton";
 // Import API service functions for fetching prediction and feature data
 import { getPrediction, getFeatures } from "@/services/api";
 
+// Main dashboard component handling UI and business logic
 export default function Dashboard() {
   const [data, setData] = useState(null);
   const [chartData, setChartData] = useState([]);
