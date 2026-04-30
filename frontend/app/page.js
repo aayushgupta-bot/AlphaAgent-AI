@@ -14,6 +14,8 @@ import SignalCard from "@/components/SignalCard";
 import ExplanationPanel from "@/components/ExplanationPanel";
 import MetadataBar from "@/components/MetadataBar";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
+
+// Import API service functions for fetching prediction and feature data
 import { getPrediction, getFeatures } from "@/services/api";
 
 export default function Dashboard() {
