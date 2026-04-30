@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     // Set language and enable dark mode globally
     <html lang="en" className="dark">
       <head>
+     {/* Preconnect to Google Fonts for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
