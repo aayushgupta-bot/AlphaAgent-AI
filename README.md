@@ -1,4 +1,4 @@
-# AlphaAgent
+# AlphaAgentAI
 
 A production-grade, multi-agent AI system for stock analysis, forecasting, and explanation. Built with a clean 6-layer architecture where specialized agents orchestrate data ingestion, feature engineering, ML inference, signal generation, and LLM-powered explanations.
 
